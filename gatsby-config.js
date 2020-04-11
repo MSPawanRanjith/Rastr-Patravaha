@@ -14,13 +14,26 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/pages`,
+        name: 'pages',
+      },
+    },
     `gatsby-transformer-sharp`,
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [],
+      },
+    },
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `rashtr-patravaha`,
+        short_name: `rashtr-patravaha`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,

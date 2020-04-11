@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "rashtr-patrvaha",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "rashtr-patrvahawith Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "@nawap",
   "dependencies": {
     "gatsby": "^2.20.12",
     "gatsby-image": "^2.3.1",
@@ -14,7 +14,7 @@
     "gatsby-plugin-sharp": "^2.5.4",
     "gatsby-source-filesystem": "^2.2.2",
     "gatsby-transformer-sharp": "^2.4.4",
-    "gatsby-transformer-remark": "^1.7.33",
+    "gatsby-transformer-remark": "^2.7.1",
     "lodash": "^4.17.5",
     "lodash-webpack-plugin": "^0.11.4",
     "netlify-cms-app": "^2.12.3",
