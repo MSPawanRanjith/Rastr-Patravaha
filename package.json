@@ -39,7 +39,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "git config --global user.name \"rashtr\" && git config --global user.email \"mspawanranjith@gmail.com\" && gatsby build --prefix-paths && gh-pages -d public -b gh-pages -r https://github.com/MSPawanRanjith/Rashtr-Patravaha.git"
+    "deploy": "git remote add origin https://github.com/MSPawanRanjith/Rashtr-Patravaha.git && gatsby build --prefix-paths && gh-pages -d public -b gh-pages"
   },
   "repository": {
     "type": "git",
