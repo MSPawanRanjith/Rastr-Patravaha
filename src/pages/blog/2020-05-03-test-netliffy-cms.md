@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Test Netliffy CMS
 date: 2020-05-03T11:07:39.163Z
-description: 'Hi this is a test blog from netliffy '
+description: Hi this is a test blog from netliffy  updated 2020 05/03
 tags:
   - test
 ---
