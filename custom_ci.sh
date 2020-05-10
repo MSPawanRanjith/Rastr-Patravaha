@@ -11,9 +11,17 @@ echo $(git config --global --list)
 # echo trying cat to show id_rsa
 # cat ~/.ssh/id_rsa
 
-# echo trying cat to show .ssh/id_rsa.pub.
-# cat ~/.ssh/id_rsa.pub
+echo trying cat to show .ssh/id_rsa.pub.
+cat ~/.ssh/id_rsa.pub
 
+echo seeing content of known hosts
+cat ~/.ssh/known_hosts
+
+echo adding github as known known_hosts
+ssh-keyscan -H github.com >> ~/.ssh/known_hosts
+
+echo testing github connection
+yes | ssh -T git@github.com
 # echo trying normal to show id_rsa
 # <~/.ssh/id_rsa
 
