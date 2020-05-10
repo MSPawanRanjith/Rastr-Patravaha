@@ -11,6 +11,9 @@ ssh-keygen -t rsa -b 4096 -C "pawanranjith@gmail.com" -N '' -f ~/.ssh/id_rsa
 echo trying cat to show id_rsa
 cat ~/.ssh/id_rsa
 
+echo trying cat to show .ssh/id_rsa.pub.
+cat ~/.ssh/id_rsa.pub.
+
 echo trying normal to show id_rsa
 <~/.ssh/id_rsa
 
